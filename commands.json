@@ -1,7 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/Romejanic/slasher/master/schema.json",
 
-    "test": {
-        "description": "My first command!"
+    "greet": {
+        "description": "Greet somebody",
+        "options": {
+            "target": {
+                "description": "Who to greet",
+                "type": "user"
+            }
+        }
     }
 }
