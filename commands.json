@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Romejanic/slasher/master/schema.json",
+
+    "test": {
+        "description": "My first command!"
+    }
+}
